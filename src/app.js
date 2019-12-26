@@ -16,4 +16,4 @@ export default class Character {
       throw new Error('A dead character cannot level up');
     }
   }
-};
+}
