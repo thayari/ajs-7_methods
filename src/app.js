@@ -12,6 +12,7 @@ export default class Character {
       this.level += 1;
       this.attack = Math.round(this.attack * 1.2);
       this.defence = Math.round(this.defence * 1.2);
+      this.health = 100;
     } else {
       throw new Error('A dead character cannot level up');
     }
